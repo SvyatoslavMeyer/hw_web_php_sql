@@ -12,7 +12,7 @@ INSERT INTO classmates (name, age, adress) VALUES ('Clark',22,'Moscow');
 INSERT INTO classmates (name, age, adress) VALUES ('Dave',21,'Yaroslavl');
 INSERT INTO classmates (name, age, adress) VALUES ('Ava',22,'Kazan');
 INSERT INTO classmates (name, age, adress) VALUES ('Peter',25,'Moscow');
-INSERT INTO classmates (name, age, adress) VALUES ('Homer',27,'Penza');
+INSERT INTO classmates (name, age, adress) VALUES ('Homer',31,'Moscow');
 
 -- fetch 
-SELECT * FROM classmates WHERE adress = 'Moscow';
+SELECT name FROM classmates WHERE adress = 'Moscow' and age<=30;  
